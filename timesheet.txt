@@ -4,3 +4,5 @@ Part 2 (addCommas): 3/13, 60 minutes
 
 Part 3 (MadLibs): 
     3/13, 90 minutes (created madlib that resets and requires all fields)
+    3/14, 120 minutes (created story templates that dynamically creates the form)
+    
