@@ -1,3 +1,6 @@
 Part 1 (Conceptual): 3/13, 30 minutes
 
 Part 2 (addCommas): 3/13, 60 minutes
+
+Part 3 (MadLibs): 
+    3/13, 90 minutes (created madlib that resets and requires all fields)
