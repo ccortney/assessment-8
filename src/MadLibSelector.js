@@ -1,6 +1,10 @@
 import MadLibButton from "./MadLibButton"
 import {v4 as uuid} from "uuid"
 
+/* MadLibSelector Component contains data for each story option. It
+* renders a div for buttons for each story option. The information of 
+* the story chosen in child MadLibButton component is passed to this 
+* component and then back to parent MadLib Component and saved in state.*/
 const MadLibSelector = ({chooseStory}) => {
 
     const stories = [

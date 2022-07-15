@@ -1,4 +1,6 @@
 
+/* MadLibStory Component constructs story using the story template and
+* user input. The story is rendered and displayed, along with a reset button.*/
 const MadLibStory = ({data, clearStory, story}) => {
 
     const storyTemplate = story.map((word) => {

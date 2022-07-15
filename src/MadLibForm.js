@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+/* MadLibForm Component renders form for user input of prompts for the given story. 
+* Submission sends user input to parent MadLib Component. Parent MadLib Component 
+* sends user input to MadLibStory Component to construct the story and re-renders to
+* display the story. */
 const MadLibForm = ({createStory, inputs}) => {
     const initialState = inputs.reduce((acc, val) => {
         return {...acc, [val]: ""};
